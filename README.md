@@ -1,8 +1,9 @@
+
 # Pomodoro Timer
 
-A simple Pomodoro timer in BASH.
+A simple Pomodoro timer written in BASH.
 
-- Includes graphical output and audio notification
+- Includes graphical output and audio notifications
 - Works on macOS
 
 
@@ -10,25 +11,21 @@ A simple Pomodoro timer in BASH.
 
 Download the file `pomodoro.sh`.
 
-
 ### Execute the file 
 
 Make the script executable:
-
 ```bash
 chmod +x pomodoro.sh
 ```
 
 Run the timer:
-
 ```bash
 ./pomodoro.sh
 ```
 
-
 ### Run from anywhere 
 
-Trim the file extension.
+Remove the file extension.
 
 Move the file to `/usr/local/bin/`.
 
@@ -37,3 +34,6 @@ Run from anywhere:
 pomodoro
 ```
 
+### Run without knowing the terminal
+
+Download the file and double click it.
